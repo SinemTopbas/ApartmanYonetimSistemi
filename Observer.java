@@ -29,7 +29,7 @@ class ResidentObserver implements Observer {
     
     @Override
     public void update(String message) {
-        // Gelen mesajı konsola yazdırarak kullanıcıyı bilgilendirir
+
         System.out.println("Bildirim " + username + ": " + message);
     }
 }
